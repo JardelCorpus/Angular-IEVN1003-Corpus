@@ -11,6 +11,7 @@ export class ProductListComponent implements OnInit {
   imagenwidth:number=100;
   imagenMarge:number=2;
   muestraImg:boolean=false;
+  listFilter:string='';
 
   constructor() { }
   muestraImagen():void{
