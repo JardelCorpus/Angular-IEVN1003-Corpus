@@ -1,0 +1,19 @@
+<div>
+    Tabla <input type="text" [(ngModel)]="tabla" name="tabla"><br>
+
+    <br>
+    <button type="button" (click)="Multiplicar()">Calcular</button>
+    <br>
+    <hr>
+    <br>
+
+    
+
+</div>
+<div align="right">
+    <h1>Resultado</h1>
+    <h1 *ngFor=" let total of totalTabla ">
+        <h1> {{total}}</h1>
+    </h1>
+    
+</div>

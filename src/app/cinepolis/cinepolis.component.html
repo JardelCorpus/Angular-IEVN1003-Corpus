@@ -1,0 +1,26 @@
+<p>Cinepólis</p>
+
+<div>
+    Nombre <input type="text" [(ngModel)]="nombre" name="nombre"><br>
+    <br>
+    <h1 align="right">Costo de boleto: $12.00</h1>
+    Cantidad de Compradores <input type="text" [(ngModel)]="compradores" name="compradores"><br>
+    <br>
+    <h3 align="right" >Cantidad máxima de boletos por persona: 7 boletos</h3>
+    Número de boletos <input type="text" [(ngModel)]="boletos" name="boletos"><br>
+    <br>
+    
+    Tarjeta 
+    <br>
+    <input type="radio" value="si" name="tarjeta" [(ngModel)]="tarjeta">Sí
+    <input type="radio" value="no" name="tarjeta" [(ngModel)]="tarjeta">No
+
+    <h3 align="right">Si pagas con tu tarjeta Club Cinepólis tienes un 10% de descuento adicional en cualquiera de tus compras</h3>
+
+    <br>
+    <button type="button" (click)="Calcular()">Calcular</button>
+    <br>
+    <hr>
+    <br>
+    <span>{{prueba}}</span>
+</div>
